@@ -19,13 +19,12 @@ public class ArrayUtil {
 		printArray(arr);
 	}
 
-	public void printArray(int[] arr) {
+	public static void printArray(int[] arr) {
 		int n = arr.length;
-		System.out.println("Array Length : "+n);
+		System.out.println("Array Length : " + n);
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");
 		}
-
+		System.out.println("");
 	}
-
 }
