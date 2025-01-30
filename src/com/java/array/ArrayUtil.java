@@ -27,4 +27,13 @@ public class ArrayUtil {
 		}
 		System.out.println("");
 	}
+	
+	public static void printArray(String[] arr) {
+		int n = arr.length;
+		System.out.println("Array Length : " + n);
+		for (int i = 0; i < n; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println("");
+	}
 }
